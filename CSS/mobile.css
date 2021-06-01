@@ -3,9 +3,7 @@
         font-size: 1.2rem;
 }
 
-body * + * {
-    margin-top: 0;
-}
+
 
 .navbar-droppdown-menu {
         display: none;
@@ -136,3 +134,9 @@ body * + * {
     .hamburger span:nth-child(4) {
         top: 1.5em;
     }
+
+    .main-container-nothing{
+        display: none;
+    }
+
+    

@@ -94,21 +94,31 @@ header{
 }
 
 .main-container{
+    position: relative;
     display: flex;
     width: 100%;
-    min-height: 80vh;
     background-image: url("IMG/background.jpg");
+    background-size:cover;
+    height: 0;
+    padding-bottom: 100%; 
 }
 
-
 .main-container-nothing{
+    position: absolute;
+    top: 0; 
+    left: -70%;
     width: 70%;
+    background-color: yellow;
     
     margin-top: 0;
 }
-
-main{
+.main-container main{
+    position: absolute; 
     width: 30%;
+    height: 0;
+    padding-bottom: 100%;
+    top: 0em;
+    right: 0;
     background-color: crimson;
 }
 
@@ -133,6 +143,10 @@ main > p {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+main > button {
+    display: block;
 }
 
 
