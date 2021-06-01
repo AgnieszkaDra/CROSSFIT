@@ -11,7 +11,7 @@
         left: 0em;
         top: 2.1em;
         min-width: 100%;
-        background-color:
+        
     }
     
 .navbar-droppdown:hover .navbar-droppdown-menu {
@@ -135,8 +135,8 @@
         top: 1.5em;
     }
 
-    .main-container-nothing{
-        display: none;
+    .main-container main{
+        width: 100%;
     }
 
     

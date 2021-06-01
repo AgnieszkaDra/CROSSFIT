@@ -103,6 +103,13 @@ header{
     padding-bottom: 100%; 
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content:stretch;
+    align-items: center;
+}
+
 .main-container-nothing{
     position: absolute;
     top: 0; 
@@ -123,10 +130,19 @@ header{
 }
 
 form{
-    padding: 1em 0  1em 2em;
+
+    padding: 1em 1em;
     display: flex;
+    width: 100%;
     justify-content:space-between;
     align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+form >  input{
+    min-width: 30%;
+   
 }
 
 .fa{
