@@ -1,0 +1,138 @@
+/* media max-width:800px */
+:root {
+        font-size: 1.2rem;
+}
+
+body * + * {
+    margin-top: 0;
+}
+
+.navbar-droppdown-menu {
+        display: none;
+        position: absolute;
+        left: 0em;
+        top: 2.1em;
+        min-width: 100%;
+        background-color:
+    }
+    
+.navbar-droppdown:hover .navbar-droppdown-menu {
+            display: block;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 1.5em 1em; 
+            background-color: black;
+            margin-top: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            z-index: 1225;
+            
+}
+
+.navbar-droppdown-menu-submenu{
+    background-color: black;
+}
+    
+.navbar-droppdown-menu > ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .navbar-droppdown-menu-submenu > li > a {
+        display: block;
+        padding: 1.5em 1.5em;
+        background-color: transparent;
+        
+        text-decoration: none; 
+    }
+    
+    
+    .navbar-droppdown-menu-submenu > li{
+        margin-top: 0;
+    }
+    
+    
+    
+    /*end of media max-width:800px*/
+    
+    .navbar-toggler {
+    
+        position: relative;
+        z-index: 1111;
+        border: solid 1px #f8f8f8;
+        height: 5em;
+        display: block;
+        width: 5em;
+        padding: .25em .75em;
+        font-size: 1.5em;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: .25rem; 
+        margin-left: 3em;
+        
+        
+        
+    }
+
+    button {
+        overflow: visible;
+        margin: 0;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        border-radius: 0;
+    }
+
+
+    .navbar-toggler .hamburger{
+        width: 3em;
+        height: 3em;
+        display: inline-block;
+        position: relative;
+       
+        cursor: pointer;
+        border: none;
+        
+    }
+
+    .hamburger{
+        margin-top: 1em;
+        margin-right: 1em;
+    }
+    
+    .hamburger .line {
+        display: block;
+        position: absolute;
+        height: 5px;
+        width: 100%;
+        background: red;
+        border-radius: 9px;
+        
+        
+    }
+
+    
+    
+    .hamburger span:nth-child(1) {
+        top: 0;
+    }
+    
+    .hamburger span:nth-child(2) {
+        margin-top: 0.5em;
+    }
+    
+    .hamburger span:nth-child(3) {
+        top: 1em;
+    }
+
+    .hamburger span:nth-child(4) {
+        top: 1.5em;
+    }
